@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: linear-gradient(300deg, rgb(28, 2, 58), rgb(2, 27, 141));
+  color: white;
+}
+
+#myButton {
+  margin-top: 1rem;
+  padding: 0.5rem 2rem;
+  font-size: 3rem;
+  font-family: "Courier New", Courier, monospace;
+  background-color: dodgerblue;
+  color: white;
+  border: 0;
+  border-radius: 3rem;
+}
+
+#myButton:hover {
+  background-color: rgb(5, 100, 196);
+}
+
+.lebel {
+  margin-top: 5rem;
+  font-size: 2rem;
+}
